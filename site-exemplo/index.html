@@ -23,9 +23,50 @@
         <div>
             <p>002</p>
         </div>
+
+        <div>
+            <p>001</p>
+        </div>
+        <div>
+            <p>002</p>
+        </div>
     </div>
-
-
     
+    <br>
+    
+    <p class="saida">
+
+    </p>
+
+    <fieldset>
+         <input type="text" name="" id="">
+    </fieldset>
+   
+
+
+<script src="jquery-3.6.0.js"></script>
+
+<script>
+    
+	function msg(){
+		$(".saida").text($(this).val());
+	}
+
+	// $(":text").bind("keyup focus blur", msg);
+
+	$("fieldset").delegate(":text", "keyup", msg);
+
+	$(":button").bind("click", function(){
+		// $(":text").unbind("keyup", msg);
+
+		// $(":text").val("Estudando Jquery");
+		// $(":text").trigger("focus");
+
+		$("form").prepend("Outro <input type='text' name ='' >");
+
+
+	});
+
+</script>
 </body>
 </html>
