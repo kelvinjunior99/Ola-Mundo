@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: antiquewhite;
+}
+head {
+    background-color: #ccc;
+}
+head h1 {
+    color: blue;
+}
+
+article h2 {
+    color: brown;
+}
