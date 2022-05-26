@@ -3,6 +3,10 @@
     padding: 0px;
     background-color: antiquewhite;
 }
+body {
+    padding: 50px;
+    margin: 4px;
+}
 head {
     background-color: #ccc;
 }
